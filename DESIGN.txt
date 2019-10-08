@@ -1,0 +1,13 @@
+Decision 1
+----------
+I used arrays to hold all the lower case letters and upper case letters.
+Originally I was just going to convert the letters to their ASCII values and perform the shifting operations with simple maths
+e.g. input "a" = 65 + 1 which gives ASCII value 66 giving an output of 'b'
+This would have resulted in cleaner code. 
+However, I made the decision to use arrays because I made the assumption that the character sets might change in the future. Also, having variables means that we can pll the data from a database or an API service so they don't have to be hardcoded into the program.
+
+
+Decision 2
+----------
+The code makes use of javascript's map() and indexOf() functions. These have been availale since ECMAScript 5.
+I made the assumption that older browsers (e.g. Internet Explorer v8 and below) will not be supported due to security concerns, therefore there should be no compatibility issues.

@@ -1,0 +1,13 @@
+<div class="card">
+    <div class="card-header">
+        Encode / Decode
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Please enter your string</h5>
+        <input class="form-control mb-2" [(ngModel)]="input" placeholder="Input string">
+        <button class="btn btn-success mr-2" (click)="encode()">ENCODE</button>
+        <button class="btn btn-info" (click)="decode()">DECODE</button>
+        <div class="row" style="height: 2em"></div>
+        <p style="font-weight: bold">The output is : <mark>{{output}}</mark></p>
+    </div>
+</div>

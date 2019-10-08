@@ -1,0 +1,18 @@
+Step 1
+------
+Unzip the files into the folder of your choice
+
+Step 2
+------
+Enter into the folder and type:
+"npm install"
+
+Step 3
+------
+After the node modules have been installed, run the application locally by typing:
+"ng serve -o"
+
+Step 4
+------
+To run the unit tests, type:
+"ng test"
